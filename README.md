@@ -63,21 +63,37 @@ This project combines cutting-edge AI with an intuitive user interface to make n
 - **Backend**: Node.js with Express  
 - **Database**: Firebase Firestore  
 - **AI Integration**: Custom models for meal planning, swaps, and chat  
-- **Hosting**: Firebase Hosting  
+- **Hosting**: Firebase Hosting
+
+---
 
 ### 📂 Project Structure
 ```plaintext
-nutritionai/
-├── public/                # Static assets (images, icons)
-├── src/                   # Core app source code
-│   ├── components/        # Reusable UI elements
-│   ├── pages/             # Main app pages
-│   ├── services/          # API and AI logic
-│   └── App.js             # Root React component
-├── firebase.json          # Firebase setup
-├── package.json           # Project dependencies
-└── README.md              # This file
+NutritionAI/
+├── .env                     # Environment variables
+├── .gitignore              # Git ignore rules
+├── README.md               # Project overview
+├── package.json            # NPM dependencies and scripts
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript config
+├── next.config.ts          # Next.js config
+├── postcss.config.mjs      # PostCSS config
+├── apphosting.yaml         # Firebase hosting config
+└── src/
+    ├── app/
+    │   ├── layout.tsx      # App-wide layout
+    │   ├── page.tsx        # Home page
+    │   └── globals.css     # Global styles
+    ├── components/
+    │   ├── Hero.tsx        # Hero section UI
+    │   ├── Navbar.tsx      # Navigation bar
+    │   └── Footer.tsx      # Footer component
+    ├── lib/
+    │   └── api.ts          # API interaction logic
+    └── utils/
+        └── helpers.ts      # Utility functions
 ```
+---
 
 ### ⚙️ Setup Instructions
 Follow these steps to run NutritionAI on your machine:  
@@ -108,6 +124,7 @@ Follow these steps to run NutritionAI on your machine:
    ```bash
    npm run build
    ```
+---
 
 ### 🤝 Contributing
 We’d love your help to improve NutritionAI! Here’s how:  
