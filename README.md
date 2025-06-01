@@ -1,6 +1,6 @@
 # 🧠 NutritionAI – Your AI-Powered Nutrition Assistant
 
-![NutritionAI Banner](Images/NutritionAI_Banner.png)  
+![NutritionAI Banner](Images/Screenshot_NutritionAI.png)  
 *Empowering healthier eating with AI-driven insights and personalized plans.*
 
 ---
