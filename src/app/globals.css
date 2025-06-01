@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 25% 96%; /* #F0F4F8 Light cool gray */
+    --foreground: 210 10% 23%; /* Dark gray for text */
+
+    --muted: 210 20% 88%;
+    --muted-foreground: 210 10% 45%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 10% 23%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 10% 23%;
+
+    --border: 210 20% 85%;
+    --input: 210 20% 90%;
+
+    --primary: 130 45% 60%; /* #7CC684 Fresh green */
+    --primary-foreground: 130 15% 98%; /* Light text on green */
+
+    --secondary: 210 20% 92%; /* Lighter gray for secondary elements */
+    --secondary-foreground: 130 45% 40%; /* Darker green text for secondary */
+
+    --accent: 203 50% 65%; /* #7EB5D0 Soft blue */
+    --accent-foreground: 203 15% 98%; /* Light text on blue */
+    
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 130 45% 50%; /* Darker shade of primary for focus rings */
+    --radius: 0.5rem;
+
+    /* Sidebar specific vars from original, can be adjusted if sidebar is used extensively */
+    --sidebar-background: 210 25% 98%;
+    --sidebar-foreground: 210 10% 26.1%;
+    --sidebar-primary: 130 45% 55%;
+    --sidebar-primary-foreground: 130 15% 98%;
+    --sidebar-accent: 210 20% 95.9%;
+    --sidebar-accent-foreground: 130 45% 35%;
+    --sidebar-border: 210 20% 88%;
+    --sidebar-ring: 130 45% 50%;
+  }
+
+  .dark {
+    --background: 210 10% 15%; /* Dark cool gray */
+    --foreground: 210 25% 90%; /* Light gray text */
+
+    --muted: 210 10% 25%;
+    --muted-foreground: 210 25% 65%;
+
+    --popover: 210 10% 10%;
+    --popover-foreground: 210 25% 90%;
+
+    --card: 210 10% 10%;
+    --card-foreground: 210 25% 90%;
+
+    --border: 210 10% 30%;
+    --input: 210 10% 28%;
+
+    --primary: 130 45% 50%; /* Slightly darker green for dark mode */
+    --primary-foreground: 130 15% 98%;
+
+    --secondary: 210 10% 20%; 
+    --secondary-foreground: 130 45% 70%;
+
+    --accent: 203 50% 55%; /* Slightly darker blue for dark mode */
+    --accent-foreground: 203 15% 98%;
+    
+    --destructive: 0 60% 45%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 130 45% 40%;
+    
+    /* Sidebar specific vars for dark mode */
+    --sidebar-background: 210 10% 10%;
+    --sidebar-foreground: 210 25% 90%;
+    --sidebar-primary: 130 45% 50%;
+    --sidebar-primary-foreground: 130 15% 98%;
+    --sidebar-accent: 210 10% 20%;
+    --sidebar-accent-foreground: 130 45% 70%;
+    --sidebar-border: 210 10% 25%;
+    --sidebar-ring: 130 45% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
