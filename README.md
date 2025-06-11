@@ -153,5 +153,9 @@ Have questions? Reach out:
 
 ---
 
+## 🙋‍♀️ Contributors
+
+### [Manish P](https://github.com/rixscx)  
+**Under the guidance of [Dr. Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)**
 ❤️ **Thanks for checking out NutritionAI!**  
 We’re excited to help you eat smarter. Let us know what you think!
