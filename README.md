@@ -148,7 +148,7 @@ Licensed under the [MIT License](LICENSE).
 
 ## 📬 Contact
 Have questions? Reach out:  
-- [GitHub Issues](https://github.com/your-repo/nutritionai/issues)  
+- [GitHub Issues](https://github.com/rixscx/The-Smartest-AI-Nutrition-Assistant-/issues/1)  
 - [LinkedIn](https://www.linkedin.com/in/rixscx)  
 
 ---
